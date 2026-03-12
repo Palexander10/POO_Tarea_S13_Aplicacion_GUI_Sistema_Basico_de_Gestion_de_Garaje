@@ -7,7 +7,7 @@ class Vehiculo:
         self.propietario = propietario
 
     def __str__(self):
-    return (
+        return (
         f"Placa: {self.placa} | "
         f"Marca: {self.marca} | "
         f"Propietario: {self.propietario}"
